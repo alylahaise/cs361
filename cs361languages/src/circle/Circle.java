@@ -77,9 +77,7 @@ public class Circle extends GraphicObject implements Cloneable {
 	
 	@Override
 	public boolean equals(Object obj) {
-		if (obj == null) 
-			return false;
-		else if (obj instanceof Circle) {
+		if (obj instanceof Circle) {
 			Circle cobj = (Circle) obj;
 			return (this.centerX == cobj.centerX && this.centerY == cobj.centerY && this.radius == cobj.radius);
 		}

@@ -47,7 +47,7 @@ public class DemoEmployee {
 
 		// Downcasting 1
 		// TODO Uncomment and run the code
-		//PartTimeEmployee pEmp3 = (PartTimeEmployee) emp1;
+		// PartTimeEmployee pEmp3 = (PartTimeEmployee) emp1;
 		// TODO To complete
 		// This instruction does not compile 
 		// This instruction returns a ClassCastException at run time
